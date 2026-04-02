@@ -2,6 +2,7 @@
 -- @description FV TrackFlow - Database Editor
 -- @author frioventus
 -- @version 0.8.0
+-- @category Utility
 -- The Database Management & Scanning Tool
 -- ==========================================
 if not reaper.ImGui_CreateContext then
