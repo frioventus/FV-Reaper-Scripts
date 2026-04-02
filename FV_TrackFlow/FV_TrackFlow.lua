@@ -1,12 +1,13 @@
 -- ==========================================
--- @description FV TrackFlow - Minimalist Track Template Manager
+-- @description FV TrackFlow
 -- @author frioventus
--- @version 0.8.1
+-- @version 0.8.2
 -- @category Utility
 -- @provides
+--   [main] FV_TrackFlow_Editor.lua
+--   [main] FV_TrackFlow_ThemeEditor.lua
 --   [nomain] FV_TrackFlow_Core.lua
--- @about
---   A minimalist, and keyboard-focused Track Template Manager for REAPER.
+-- @about A minimalist, keyboard-focused Track Template Manager for REAPER.
 -- ==========================================
 if not reaper.ImGui_CreateContext then
   reaper.MB("Please install ReaImGui via ReaPack.", "Error", 0)
