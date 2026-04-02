@@ -1,7 +1,7 @@
 -- ==========================================
 -- @description FV TrackFlow - Minimalist Track Template Manager
 -- @author frioventus
--- @version 0.8.0
+-- @version 0.8.1
 -- @category Utility
 -- @provides
 --   [nomain] FV_TrackFlow_Core.lua
