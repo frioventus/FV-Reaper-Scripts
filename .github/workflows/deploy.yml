@@ -25,4 +25,6 @@ jobs:
     - name: Update index.xml
       run:  reapack-index --name "FV Scripts" --commit
     - name: Push changes
-      run:  git push
+      run: |
+        git pull --rebase origin main
+        git push
