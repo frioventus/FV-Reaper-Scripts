@@ -23,13 +23,13 @@ jobs:
       - name: Install reapack-index
         run: gem install reapack-index
 
-      - name: Build Index
-        run: reapack-index
-
-      - name: Commit and Push
+      - name: Configure Git
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.xml
-          git commit -m "Update index.xml [skip ci]" || echo "No changes to commit"
-          git push
+
+      - name: Build and Commit Index
+        run: reapack-index --name "FV TrackFlow" --commit
+
+      - name: Push Changes
+        run: git push
