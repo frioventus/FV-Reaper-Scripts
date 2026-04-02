@@ -1,5 +1,6 @@
 -- ==========================================
 -- FV TrackFlow - Database Editor
+-- @noindex
 -- ==========================================
 if not reaper.ImGui_CreateContext then
   reaper.MB("Please install ReaImGui via ReaPack.", "Error", 0)
