@@ -1,7 +1,7 @@
 -- ==========================================
 -- @description FV TrackFlow - Database Editor
 -- @author frioventus
--- @version 0.8.0
+-- @version 0.8.1
 -- @category Utility
 -- The Database Management & Scanning Tool
 -- ==========================================
