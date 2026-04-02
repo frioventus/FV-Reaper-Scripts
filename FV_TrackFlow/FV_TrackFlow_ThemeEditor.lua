@@ -1,9 +1,5 @@
 -- ==========================================
--- @description FV TrackFlow - Theme Customizer
--- @author frioventus
--- @version 0.8.1
--- @category Utility
--- Visual Theme Customizer UI
+-- FV TrackFlow - Theme Customizer
 -- ==========================================
 if not reaper.ImGui_CreateContext then
   reaper.MB("Please install ReaImGui via ReaPack.", "Error", 0)
