@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="FV Scripts" commit="c0bae607eaaf7c7b1ca435da580a4c2ad1e74778"/>
+<index version="1" name="FV Scripts" commit="036d06ecb2452f638ed76da36f551b116b1dd1de">
+  <category name="FV_TrackFlow">
+    <reapack name="FV_TrackFlow.lua" type="script" desc="FV TrackFlow">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 A minimalist, keyboard-focused Track Template Manager for REAPER.\par}
+}
+]]></description>
+      </metadata>
+      <version name="0.9.2" author="frioventus" time="2026-04-02T20:44:10Z">
+        <source main="main">https://github.com/frioventus/FV-Reaper-Scripts/raw/036d06ecb2452f638ed76da36f551b116b1dd1de/FV_TrackFlow/FV_TrackFlow.lua</source>
+        <source main="main" file="FV_TrackFlow_Editor.lua">https://github.com/frioventus/FV-Reaper-Scripts/raw/036d06ecb2452f638ed76da36f551b116b1dd1de/FV_TrackFlow/FV_TrackFlow_Editor.lua</source>
+        <source main="main" file="FV_TrackFlow_ThemeEditor.lua">https://github.com/frioventus/FV-Reaper-Scripts/raw/036d06ecb2452f638ed76da36f551b116b1dd1de/FV_TrackFlow/FV_TrackFlow_ThemeEditor.lua</source>
+        <source file="FV_TrackFlow_Core.lua">https://github.com/frioventus/FV-Reaper-Scripts/raw/036d06ecb2452f638ed76da36f551b116b1dd1de/FV_TrackFlow/FV_TrackFlow_Core.lua</source>
+      </version>
+    </reapack>
+  </category>
+</index>
