@@ -1,7 +1,7 @@
 -- ==========================================
 -- @description FV TrackFlow - Core Engine
 -- @author frioventus
--- @version 0.8.0
+-- @version 0.8.1
 -- @category Utility
 -- @nomain
 -- The Engine: Handles database, search logic, and Reaper API insertion.
