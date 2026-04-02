@@ -4,7 +4,7 @@
 -- @version 0.8.1
 -- @category Utility
 -- @provides
---   [nomain] FV_TrackFlow/FV_TrackFlow.lua
+--   [nomain] FV_TrackFlow_Core.lua
 -- @about
 --   A minimalist, and keyboard-focused Track Template Manager for REAPER.
 -- ==========================================
