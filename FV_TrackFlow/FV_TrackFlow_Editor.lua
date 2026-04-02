@@ -1,9 +1,5 @@
 -- ==========================================
--- @description FV TrackFlow - Database Editor
--- @author frioventus
--- @version 0.8.1
--- @category Utility
--- The Database Management & Scanning Tool
+-- FV TrackFlow - Database Editor
 -- ==========================================
 if not reaper.ImGui_CreateContext then
   reaper.MB("Please install ReaImGui via ReaPack.", "Error", 0)
