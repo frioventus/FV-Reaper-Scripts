@@ -1,20 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="FV Scripts" commit="5641af0c211639e2fb1c34b446b7638aa0bc8330">
-  <category name="FV_TrackFlow">
-    <reapack name="FV_TrackFlow_Core.lua" type="script" desc="FV TrackFlow - Core Engine">
-      <version name="0.8.1" author="frioventus" time="2026-04-02T19:26:57Z">
-        <source main="main">https://github.com/frioventus/FV-Reaper-Scripts/raw/edd9e868371b973934ff5403c8467db17907289d/FV_TrackFlow/FV_TrackFlow_Core.lua</source>
-      </version>
-    </reapack>
-    <reapack name="FV_TrackFlow_Editor.lua" type="script" desc="FV TrackFlow - Database Editor">
-      <version name="0.8.1" author="frioventus" time="2026-04-02T19:27:14Z">
-        <source main="main">https://github.com/frioventus/FV-Reaper-Scripts/raw/9f1b02be19bac996921981a2c071863b3ed6999b/FV_TrackFlow/FV_TrackFlow_Editor.lua</source>
-      </version>
-    </reapack>
-    <reapack name="FV_TrackFlow_ThemeEditor.lua" type="script" desc="FV TrackFlow - Theme Customizer">
-      <version name="0.8.1" author="frioventus" time="2026-04-02T19:27:28Z">
-        <source main="main">https://github.com/frioventus/FV-Reaper-Scripts/raw/5641af0c211639e2fb1c34b446b7638aa0bc8330/FV_TrackFlow/FV_TrackFlow_ThemeEditor.lua</source>
-      </version>
-    </reapack>
-  </category>
-</index>
+<index version="1" name="FV Scripts" commit="c0bae607eaaf7c7b1ca435da580a4c2ad1e74778"/>
