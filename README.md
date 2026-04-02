@@ -10,7 +10,7 @@ Designed for speed and an uninterrupted workflow, FV TrackFlow replaces standard
 
 ## ✨ Key Features
 
-* **Smart Search & Auto-Complete:** Search by track name, folder path, or tags. Use `TAB` to auto-complete.
+* **Smart Search & Auto-Complete:** Search by track name, folder path, or tags.
 * **Zero Layout Shift UI:** A stable interface that doesn't jump or distract.
 * **Intelligent Routing:** Automatically moves inserted templates into their designated "Target Folders" and sets up FX Sends.
 * **Contextual Minimalism:** Buttons morph and vanish based on context. 
@@ -22,4 +22,4 @@ Designed for speed and an uninterrupted workflow, FV TrackFlow replaces standard
 2. Go to **Extensions > ReaPack > Import repositories**.
 3. Paste the following repository link:
    ```text
-   [https://raw.githubusercontent.com/frioventus/FV-Reaper-Scripts/main/index.xml](https://raw.githubusercontent.com/frioventus/FV-Reaper-Scripts/main/index.xml)
+   https://raw.githubusercontent.com/frioventus/FV-Reaper-Scripts/main/index.xml
