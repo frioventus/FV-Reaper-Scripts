@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="FV TrackFlow" commit="5641af0c211639e2fb1c34b446b7638aa0bc8330">
+<index version="1" name="FV Scripts" commit="5641af0c211639e2fb1c34b446b7638aa0bc8330">
   <category name="FV_TrackFlow">
     <reapack name="FV_TrackFlow_Core.lua" type="script" desc="FV TrackFlow - Core Engine">
       <version name="0.8.1" author="frioventus" time="2026-04-02T19:26:57Z">
