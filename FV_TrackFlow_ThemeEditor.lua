@@ -2,6 +2,7 @@
 -- @description FV TrackFlow - Theme Customizer
 -- @author frioventus
 -- @version 0.8.0
+-- @category Utility
 -- Visual Theme Customizer UI
 -- ==========================================
 if not reaper.ImGui_CreateContext then
