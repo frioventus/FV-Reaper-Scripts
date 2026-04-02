@@ -11,6 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build index
-      uses: cfillion/reapack-index@v1
+      uses: cfillion/reapack-index@v1.2.6
       with:
         commit-message: "Update ReaPack index"
