@@ -1,7 +1,7 @@
 -- ==========================================
 -- @description FV TrackFlow - Theme Customizer
 -- @author frioventus
--- @version 0.8.0
+-- @version 0.8.1
 -- @category Utility
 -- Visual Theme Customizer UI
 -- ==========================================
