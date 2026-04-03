@@ -1,6 +1,6 @@
 -- @description FV TrackFlow
 -- @author frioventus
--- @version 0.9.3
+-- @version 0.9.4
 -- @category Track Template Manager
 -- @provides
 --   [main] FV_TrackFlow_Editor.lua
