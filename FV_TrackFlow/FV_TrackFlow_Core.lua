@@ -64,10 +64,9 @@ function Core.SaveDatabase(script_path)
     return true
 end
 
--- YENI: Arayuzdeki Auto-complete (Tamamlama) icin tum tagleri listeler
+-- YENİ VE KUSURSUZ: Sadece veritabanında GERÇEKTEN var olan etiketleri getirir (Hayaletleri dışlar)
 function Core.GetAllTags()
     local tags_map = {}
-    for t, _ in pairs(Core.tag_configs) do tags_map[string.upper(t)] = true end
     for _, item in ipairs(Core.track_templates) do
         if item.tags then
             for _, t in ipairs(item.tags) do tags_map[string.upper(t)] = true end
@@ -83,7 +82,6 @@ function Core.UpdateCache(search_text, nav_path)
     local current_view = {}
     local folder_seen = {}
 
-    -- YENI: Arama metnini kelimelere (bosluklara gore) boluyoruz
     local search_words = {}
     if search_text ~= "" then
         for w in string.gmatch(string.lower(search_text), "%S+") do table.insert(search_words, w) end
@@ -92,7 +90,6 @@ function Core.UpdateCache(search_text, nav_path)
     for _, item in ipairs(Core.track_templates) do
         if item.file_path ~= "" then
             if #search_words > 0 then
-                -- YENI: Coklu kelime (AND) mantigi. Track tum kelimeleri barindirmali.
                 local all_match = true
                 local match_score = 0
                 
@@ -313,7 +310,21 @@ end
 function Core.GetTagShortName(tag)
     local t = string.upper(tag)
     if Core.tag_configs[t] and Core.tag_configs[t].short then return Core.tag_configs[t].short end
-    return string.sub(t, 1, 3)
+    
+    local words = {}
+    for w in string.gmatch(t, "%S+") do table.insert(words, w) end
+    
+    if #words == 1 then
+        local first_char = string.sub(t, 1, 1)
+        local rest = string.sub(t, 2)
+        local consonants = string.gsub(rest, "[AEIOU]", "")
+        local short = first_char .. string.sub(consonants, 1, 2)
+        return #short >= 2 and short or string.sub(t, 1, 3)
+    else
+        local short = ""
+        for i = 1, math.min(#words, 4) do short = short .. string.sub(words[i], 1, 1) end
+        return short
+    end
 end
 
 return Core

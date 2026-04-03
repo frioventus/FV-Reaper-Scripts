@@ -58,6 +58,25 @@ local function SplitString(inputstr, sep)
     return t
 end
 
+-- YENİ: SMART ABBREVIATION (Editor için)
+local function GenerateSmartAbbreviation(tag)
+    local t = string.upper(tag)
+    local words = {}
+    for w in string.gmatch(t, "%S+") do table.insert(words, w) end
+    
+    if #words == 1 then
+        local first_char = string.sub(t, 1, 1)
+        local rest = string.sub(t, 2)
+        local consonants = string.gsub(rest, "[AEIOU]", "")
+        local short = first_char .. string.sub(consonants, 1, 2)
+        return #short >= 2 and short or string.sub(t, 1, 3)
+    else
+        local short = ""
+        for i = 1, math.min(#words, 4) do short = short .. string.sub(words[i], 1, 1) end
+        return short
+    end
+end
+
 if reaper.file_exists(db_filepath) then
     local loaded_data = dofile(db_filepath)
     for _, item in ipairs(loaded_data) do
@@ -123,7 +142,7 @@ end
 
 local function DrawMicroBadge(tag)
     local t_upper = string.upper(tag)
-    local cfg = tag_configs[t_upper] or { short = string.sub(t_upper, 1, 3), color = 0x9E9E9EFF }
+    local cfg = tag_configs[t_upper] or { short = GenerateSmartAbbreviation(t_upper), color = 0x9E9E9EFF }
     
     reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(), cfg.color)
     reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), cfg.color)
@@ -500,7 +519,7 @@ local function loop()
             sorted_unique_tags = {}
             for t in pairs(unique) do
                 table.insert(sorted_unique_tags, t)
-                if not tag_configs[t] then tag_configs[t] = { short = string.sub(t, 1, 3), color = 0x9E9E9EFF } end
+                if not tag_configs[t] then tag_configs[t] = { short = GenerateSmartAbbreviation(t), color = 0x9E9E9EFF } end
             end
             table.sort(sorted_unique_tags)
             show_tag_modal = true 
