@@ -24,3 +24,4 @@ Designed to enhance your existing workflow, FV TrackFlow provides a fast, tag-su
 3. Paste the following repository link:
    ```text
    https://raw.githubusercontent.com/frioventus/FV-Reaper-Scripts/main/index.xml
+4. Search for FV TrackFlow in the ReaPack browser, install, and apply.
