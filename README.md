@@ -42,7 +42,7 @@ From there, it's incredibly easy to organize your library: assign tags, configur
 ### 🎨 Match Your Workflow & Theme
 ![Theme Customizer Preview](docs/feature_themes.gif)
 
-Your tools should feel like a native part of your workspace. TrackFlow is fully dockable and highly responsive, meaning you can use it as a vertical sidebar, a horizontal panel, or a compact floating square. Open the Theme Customizer (`Ctrl+T`) to choose from carefully crafted built-in presets (like Studio Dark, Nordic, or Dracula), or manually tweak every single color, padding, and border radius to perfectly match your custom REAPER theme.
+Your tools should feel like a native part of your workspace. TrackFlow is fully dockable and highly responsive, meaning you can use it as a vertical sidebar, a horizontal panel, or a compact floating square. Open the Theme Customizer (`Ctrl+T`) to choose from presets or manually tweak every single color, padding, and border radius to perfectly match your custom REAPER theme.
 
 ---
 
