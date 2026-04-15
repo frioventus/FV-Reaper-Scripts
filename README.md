@@ -3,7 +3,7 @@ REAPER scripts by frioventus.
 
 
 # FV TrackFlow 🌊
-**The ultimate track template workflow for REAPER.**
+**The track template assistant for REAPER.**
 
 ![FV TrackFlow Preview](docs/preview.gif)
 
