@@ -19,12 +19,12 @@ REAPER scripts by frioventus.
 ### 🔍 Find & Insert Instantly
 ![Search and Insert Preview](docs/feature_search.gif)
 
-Stop digging through folders. Use fuzzy search and tags to instantly find what you need. Select multiple tracks and insert them all at once via the `Enter` key, or simply drag and drop them directly into your timeline.
+Stop digging through folders. Use fuzzy search and tags to instantly find what you need. Select multiple tracks and insert them all at or simply drag and drop them directly into your project.
 
 ### 🔀 Routing & Folders
 ![Auto Routing Preview](docs/feature_routing.gif)
 
-TrackFlow automates the tedious setup. Inserted tracks automatically recreate your **custom send routing** (with exact dB levels) and snap right into their assigned parent folders without messing up your project structure.
+Inserted tracks automatically recreate your **custom send routing** (with exact dB levels) and snap right into their assigned parent folders without messing up your project structure.
 
 ### 💎 Minimalist & Contextual UI
 ![Minimalist UI Preview](docs/feature_minimalist.gif)
