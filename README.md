@@ -44,6 +44,9 @@ From there, it's incredibly easy to organize your library: assign tags, configur
 
 Your tools should feel like a native part of your workspace. TrackFlow is fully dockable and highly responsive, meaning you can use it as a vertical sidebar, a horizontal panel, or a compact floating square. Open the Theme Customizer (`Ctrl+T`) to choose from presets or manually tweak every single color, padding, and border radius to perfectly match your custom REAPER theme.
 
+### 🧪 Experimental: The Randomizer
+Sometimes the best ideas come from happy accidents. TrackFlow includes an experimental Randomizer that lets you instantly insert a random track template from your current folder or search results. In the future, I plan to expand this into "Smart Ensembles"—allowing you to generate entire randomized sections (like building a full string orchestra by randomly pulling compatible violins, violas, cellos, and basses) with a single click to instantly spark new inspiration.
+
 ---
 
 ## 🚀 Installation (via ReaPack)
