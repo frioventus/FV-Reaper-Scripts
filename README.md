@@ -34,7 +34,7 @@ TrackFlow is designed with a strict minimalist philosophy to keep your workspace
 ### ⚙️ Build Your Database in Seconds
 ![Database Editor Preview](docs/feature_editor.gif)
 
-Organize your track template folders on your drive exactly how you like them, then mirror that exact structure into TrackFlow with a single click using the **Scan** button in the Editor (`Ctrl+E`). 
+Import your track templates exactly as they are into TrackFlow. Build a complete database of your entire folder structure and all your templates with a single click using the **Scan** button in the Editor (`Ctrl+E`). 
 
 From there, it's incredibly easy to organize your library: assign tags, configure send routing, and set target folders. Want to apply the same settings to multiple tracks? Just copy and paste your tags, sends, and target folders across other templates with a single click. As a bonus, TrackFlow automatically parses your `.RTrackTemplate` files to extract and display the exact VST/AU instrument loaded inside.
 
